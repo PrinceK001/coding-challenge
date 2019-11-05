@@ -8,7 +8,7 @@ import "./amazon";
 
 const appDiv = document.getElementById("app");
 appDiv.innerHTML = `
-<h1>Interview Questions - Preparation</h1>
+<h1>Coding Challenge</h1>
 <div class = "list">'
   <ol id="type-list"></ol>
 </div>`;
