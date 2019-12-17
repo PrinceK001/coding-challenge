@@ -4,7 +4,7 @@ import "./fizz-buzz";
 import "./fibonacci";
 import "./reverse";
 import "./palindrome";
-import "./amazon";
+import "./sum-upto-n";
 
 const appDiv = document.getElementById("app");
 appDiv.innerHTML = `
@@ -12,11 +12,10 @@ appDiv.innerHTML = `
 <div class = "list">'
   <ol id="type-list"></ol>
 </div>`;
-const quesList = ['Fizz, buzz and fizzbuzz', 'Fibonacci series', 'Reverse a string', 'Palindrome', 'Amazon'];
+const quesList = ['Fizz, buzz and fizzbuzz', 'Fibonacci series', 'Reverse a string', 'Palindrome', 'Sum upto N', 'Average of pair', 'Duplicate finder', 'Frequency finder', 'Steps Calculator'];
 const olElem = document.getElementById('type-list');
 quesList.forEach((text, i)=>{
   const newEle = document.createElement('li');
-  const newTextEle = document.createTextNode(text);
-  newEle.appendChild(newTextEle);
+  newEle.textContent = text;
   olElem.appendChild(newEle);
 });

@@ -27,5 +27,4 @@ function fun(){
     }
     return [level, valleysCtr];
 }
-
 fun();
