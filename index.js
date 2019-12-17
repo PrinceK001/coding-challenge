@@ -12,7 +12,7 @@ appDiv.innerHTML = `
 <div class = "list">'
   <ol id="type-list"></ol>
 </div>`;
-const quesList = ['Fizz, buzz and fizzbuzz', 'Fibonacci series', 'Reverse a string', 'Palindrome', 'Sum upto N', 'Average of pair', 'Duplicate finder', 'Frequency finder', 'Steps Calculator'];
+const quesList = ['Fizz, buzz and fizzbuzz', 'Fibonacci series', 'Reverse a string', 'Palindrome', 'Sum upto N', 'Average of pair', 'Duplicate finder', 'Frequency finder', 'Steps Calculator', 'Max Sub Array Sum', 'Sequence Finder'];
 const olElem = document.getElementById('type-list');
 quesList.forEach((text, i)=>{
   const newEle = document.createElement('li');
